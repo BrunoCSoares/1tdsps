@@ -22,6 +22,13 @@ if __name__ == "__main__":
         else:
             nome_b = time_b[1] + " " + time_b[2]
         
-        print(f"{nome_a} = {gols_a}")
-        print(f"{nome_b.strip()} = {gols_b}")
+        #print(f"{nome_a} = {gols_a}")
+        #print(f"{nome_b.strip()} = {gols_b}")
+
+        if gols_a > gols_b:
+            #somar 3 pontos para o time_a
+        elif gols_a < gols_b:
+            #somar 3 pontos para o time_b
+        else:
+            #somar um ponto para cada time
 
